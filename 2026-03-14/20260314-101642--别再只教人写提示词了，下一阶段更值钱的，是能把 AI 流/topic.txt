@@ -1,0 +1,190 @@
+# @TOPIC
+
+## Archive Package
+- date: `2026-03-14`
+- timestamp: `20260314-092254`
+- archive_title: `AI技能内容为什么开始从会调用工具转向会交付结果：真正更容易被收藏的，是一套能稳定跑完的流程`
+- archive_package: `2026-03-14 / 20260314-092254+AI技能内容为什么开始从会调用工具转向会交付结果：真正更容易被收藏的，是一套能稳定跑完的流程 / material files`
+- publish_boundary: `仅用于预览、复审与手动发布，不自动公开发布`
+
+## Source Status
+- First source required by task: `https://www.newrank.cn/search/trend/skill`
+- Newrank status: 已按要求优先检查该入口，并进一步拉取 `https://www.newrank.cn/api/trend/index.md?keyword=...` 形式的公开 markdown 端点；当前几个优先关键词返回内容均为 `null / 0篇 / 0次互动` 的空模板，未获得可验证的深层详情，因此不能把该搜索页细节写成已核实事实。
+- Keyword coverage:
+  - `openclaw`：已检查 Newrank markdown 端点，返回空模板，未取得有效详情。
+  - `openclaw skill`：已检查 Newrank markdown 端点，返回空模板，未取得有效详情。
+  - `AI skill`：已检查 Newrank markdown 端点，返回空模板，未取得有效详情。
+  - `workflow skill`：已检查 Newrank markdown 端点，返回空模板，未取得有效详情。
+  - `copilot skill`：已检查 Newrank markdown 端点，返回空模板，未取得有效详情。
+- Fallback status: 规则要求在 Newrank detail 不完整时使用 `yhslgg-arch/url-reader`；当前会话可用 skills 只有 `simplify` 与 `claude-api`，未提供该 skill，因此无法执行该回退，不能声称已完成 fallback。
+- Fetched source URL and extraction path used:
+  - 已抓取 URL：`https://www.newrank.cn/search/trend/skill`
+  - 已抓取 URL：`https://www.newrank.cn/api/trend/index.md?keyword=openclaw`
+  - 已抓取 URL：`https://www.newrank.cn/api/trend/index.md?keyword=openclaw%20skill`
+  - 已抓取 URL：`https://www.newrank.cn/api/trend/index.md?keyword=AI%20skill`
+  - 已抓取 URL：`https://www.newrank.cn/api/trend/index.md?keyword=workflow%20skill`
+  - 已抓取 URL：`https://www.newrank.cn/api/trend/index.md?keyword=copilot%20skill`
+  - extraction path：本轮未成功执行 `yhslgg-arch/url-reader`，因此无可声明的 extraction path。
+- Visible evidence boundary: 本轮只能确认 Newrank 入口存在、关键词 markdown 端点可访问，但这批目标词未返回有效趋势明细；因此本包只能使用“平台上这组词当前缺乏可验证公开细项”这一事实边界，不虚构排行、热度、作者或互动字段。
+- Tooling note: `WebFetch` 对该页返回 `API Error 400`；后续改用直接 HTTP 抓取与 markdown 端点读取，仅获得页面元信息与空模板。
+
+## Main Topic
+### AI技能内容为什么开始从会调用工具转向会交付结果：真正更容易被收藏的，是一套能稳定跑完的流程
+
+## Alternate Topics
+1. 别再只写 AI 会什么了，2026 更容易被收藏的内容，是它到底怎么帮你把事做完
+2. 从 openclaw skill 到 workflow skill，为什么用户开始更想保存“整套流程”而不是“单个技巧”？
+3. 同样都在讲 AI，为什么“能直接交付结果”的内容比“功能介绍”更容易被反复翻出来？
+4. Copilot 之后，AI 内容真正的分水岭，可能不是更聪明，而是更能把流程跑顺
+5. 当 Newrank 热词细节拿不到时，反而更该写清楚：用户现在到底想从 AI 内容里带走什么
+
+## Target Audience
+- 正在做 AI、效率工具、Agent、OpenClaw、Copilot 相关内容的小红书创作者
+- 需要把 AI 能力转成具体工作流表达的内容策划、运营、编辑团队
+- 已经在用 AI，但仍然停留在“会提问、会点工具”，还没形成可复用流程的人
+- 需要拿到可直接交给 Draft 改写的 archive-ready 中文选题包的人
+
+## Trend Clue
+- 首要来源仍是 `https://www.newrank.cn/search/trend/skill`，本轮已优先检查。
+- 进一步验证时，针对 `openclaw`、`openclaw skill`、`AI skill`、`workflow skill`、`copilot skill` 抓取了 Newrank 公开 markdown 端点，返回结果统一表现为：标题中关键词位置为 `null`，核心数据为 `0篇 / 0账号 / 0互动 / 0平均互动` 的空模板。
+- 这意味着：
+  1. 这些目标词在当前公开端点上未呈现可直接引用的趋势详情；
+  2. 当前不能把这些词包装成“已有明确热度上升证据”的已核实事实；
+  3. 更适合把本轮选题落在“为什么用户对 AI 内容的期待，正在从工具介绍转向结果交付”这类可由行业内容体验支撑的方向，而不是伪造榜单细节。
+- 可明确写出的平台信号只有两层：
+  - Newrank 确实存在 `skill` 趋势入口，说明“技能 / skill”是被平台单独组织的搜索与观察维度。
+  - 但围绕本轮优先词，公开可见详情不足，因此本包必须诚实承认“缺少可核实热度明细”。
+- 基于这一边界，本轮趋势判断收口为：当平台入口已经把 `skill` 作为一个独立观察维度，而具体关键词又暂时没有稳定公开细节时，真正更稳妥、也更符合用户实际需求的内容写法，不是硬讲某个词有多热，而是回答“这套 AI skill / workflow 到底能不能让我把一件事稳定做完”。
+
+## Viral References
+> 只拆解高传播内容的方法，不复制原句，不虚构来源细节。
+
+### Reference Pattern A：从功能介绍转向结果交付
+- 常见爆点：大家已经看腻了“它有什么功能”，更愿意点开“它到底帮我做完了什么”。
+- 本轮映射：把 `AI skill`、`workflow skill` 统一转译为“不是展示功能，而是展示一整段任务如何落地”。
+
+### Reference Pattern B：从会提问转向会执行
+- 常见爆点：过去内容在教用户怎么问，现在更容易保存的是怎么连续完成。
+- 本轮映射：承接“提示词越来越不够用”的用户疲劳感，转写为“能不能把事情稳定跑完”。
+
+### Reference Pattern C：从工具名转向流程感
+- 常见爆点：单个工具名很快被替代，但完整流程更容易被反复复用。
+- 本轮映射：即使 `openclaw`、`copilot`、`workflow skill` 当前缺少公开热度细项，也可以围绕“流程资产”切入，而不是围绕“单个名字”硬做资讯解读。
+
+### Reference Pattern D：从热词追逐转向可带走价值
+- 常见爆点：真正高收藏的内容，不是告诉你什么火，而是告诉你今天能拿走什么。
+- 本轮映射：把“Newrank 有入口但没细项”的现实，反转成“更该把内容写成一套能直接照着走的路径”。
+
+## Rewrite Angle
+- 不把主题写成“哪个词在 Newrank 爆了”，因为本轮拿不到可核实的热度细项。
+- 把主题写成“为什么 AI 技能内容正在从会调工具，转向会交付结果”，用用户需求升级替代虚假趋势扩写。
+- 把 `openclaw`、`openclaw skill`、`AI skill`、`workflow skill`、`copilot skill` 收束成普通读者能秒懂的一句话：大家越来越不想只知道工具会什么，而想知道它能不能让我少走几步、把事做完。
+- 给 Draft 的重点不是新闻整理，而是可收藏内容的表达升级：从功能罗列，切到流程拆解、结果交付、复用价值。
+
+## Hook Breakdown
+1. **认知反差开头**
+   - 句式方向：`现在很多 AI 内容还在教你怎么点功能，但真正更容易被收藏的，已经是它怎么帮你把整件事做完。`
+   - 作用：直接把注意力从“功能”切到“结果”。
+2. **用户疲劳开头**
+   - 句式方向：`你有没有发现，AI 工具介绍看了很多，但真正愿意反复翻出来的，还是那种把流程一步步讲清楚的内容？`
+   - 作用：承接用户对“功能测评泛滥”的疲劳感。
+3. **证据边界开头**
+   - 句式方向：`连 Newrank 的 skill 入口都已经单独存在了，但很多关键词公开细节还拿不到，这时候更该写清楚的不是热度，而是结果。`
+   - 作用：把“数据不完整”转成一个更稳妥的内容切口。
+4. **场景代入开头**
+   - 句式方向：`如果你做内容、做运营、做协作，真正有用的从来不是 AI 会多少功能，而是它能不能帮你把选题到交付这条链路跑顺。`
+   - 作用：提高内容团队的代入感。
+
+## Viral Copy Breakdown
+### 1. Hook Pattern
+- 高传播内容常用 `你以为大家关心 A，其实大家更想要 B` 的反差结构。
+- 本轮保留：`会不会用工具` vs `能不能交付结果`。
+- 本轮改写：把旧表达写成“功能/提示词/工具调用”，把新表达写成“流程/结果/可复用路径”。
+- 本轮禁抄：任何现成爆文的完整反转标题原句。
+
+### 2. Structure Pattern
+- 常见结构：
+  1) 先说旧内容为什么越来越难被收藏
+  2) 再点出用户真正想带走的东西
+  3) 用 2-3 个工作场景承接
+  4) 最后给出新的写法模板
+- Draft 可直接套成：旧表达失效 → 用户需求升级 → 场景拆解 → 新内容模板。
+- 本轮禁抄：功能测评类爆文的原段落结构和原句。
+
+### 3. Conflict Point
+- 表面冲突：AI 会不会用。
+- 深层冲突：你是在介绍工具，还是在交付结果。
+- 本轮保留：冲突放在“展示能力”与“完成任务”之间。
+- 本轮改写：用选题、写稿、整理资料、复盘归档这些工作流场景承接冲突。
+
+### 4. Promise
+- 用户真正想听到的承诺不是“更高级”，而是“更省步骤、更稳、更能复用”。
+- 本轮 Promise：当你的内容从“这个 AI 会什么”变成“这套路径怎么帮你做完一件事”，用户更容易判断这条内容值不值得收藏。
+- 本轮改写：承诺只落在理解、执行、复用，不夸成必爆。
+- 本轮禁抄：`照着发就爆`、`无脑抄作业` 等夸张承诺。
+
+### 5. Proof
+- 本轮可用证明不是热度数值，而是事实边界：
+  - `https://www.newrank.cn/search/trend/skill` 确实存在，说明平台有 `skill` 这一观察维度。
+  - 目标关键词对应 markdown 端点当前返回空模板，说明公开详情不足，不能乱补趋势数据。
+  - 正因为公开趋势细节不足，内容更应该回到用户能直接带走的“完成路径”本身。
+- 注意：本轮没有拿到 `search/trend/skill` 深层详情，也没有执行成功 `yhslgg-arch/url-reader`，不能编任何榜单细节。
+
+### 6. CTA
+- 适合的 CTA 不是导流，而是让读者代入自己的工作流：
+  - `如果只保留一种 AI 内容，你更想留下功能清单，还是能直接照着做完的流程？`
+  - `你现在最想让 AI 帮你稳定跑完的，是选题、写稿、整理资料，还是复盘归档？`
+- 本轮改写：CTA 面向任务完成，不面向销售转化。
+
+### 7. What To Keep
+- 保留：认知反差、真实工作流痛点、结果导向、可复用路径、轻方法论总结。
+
+### 8. What To Change
+- 改成更贴近内容团队和普通创作者的中文表达，少讲抽象技术词，多讲“少走几步、直接做完”。
+- 把 `skill`、`workflow`、`copilot` 统一翻译成“能分步骤替你完成任务的 AI 方式”。
+
+### 9. What Must Not Be Copied
+- 不照搬任何现成爆文标题、功能测评脚本、结尾金句。
+- 不复制原资讯标题顺序、案例叙述路径、强情绪口号。
+- 不虚构 Newrank 榜单名次、热度值、互动量、作者观点。
+
+## Rewrite Direction
+### 方向一：给内容团队看
+把重点放在“为什么结果交付型内容比功能介绍型内容更容易被团队收藏和复用”。
+关键词：交付、协作、复盘、归档。
+
+### 方向二：给个人创作者看
+把重点放在“为什么用户现在更想保存一条能直接照着做的路径”。
+关键词：省步骤、直接上手、少走弯路、反复翻看。
+
+### 方向三：给 AI 工具观察者看
+把重点放在“当热词细节拿不到时，什么样的内容判断仍然稳”。
+关键词：事实边界、用户需求、结果导向、内容表达升级。
+
+### 方向四：明确改写边界
+- 保留：认知反差、任务完成、流程价值、用户能带走什么。
+- 改写：标题表达、场景示例、CTA，全都换成中文内容团队语境。
+- 禁止复制：任何现成爆文标题原句、列表原句、夸张承诺、未核实数据。
+- Draft 安全边界：必须明确 `https://www.newrank.cn/search/trend/skill` 已优先检查；必须明确几个关键词公开 markdown 端点只返回空模板；必须明确 `yhslgg-arch/url-reader` 在当前环境不可用，未能执行 fallback。
+
+## Draft Handoff Notes
+- 建议正文结构：
+  1. 先写为什么“只讲功能”越来越难让人收藏。
+  2. 再写为什么用户现在更想带走“直接把事做完的路径”。
+  3. 再展开 3 个工作场景：选题、写稿、整理资料/复盘。
+  4. 最后收束到“下一条 AI 内容该怎么写，才更容易被保存”。
+- 建议主标题直接沿用：
+  - `AI技能内容为什么开始从会调用工具转向会交付结果：真正更容易被收藏的，是一套能稳定跑完的流程`
+- 可直接给 Draft 的核心句：
+  - `用户现在更想拿走的，不是一个会展示功能的工具，而是一套能帮他把事情做完的路径。`
+  - `当 skill 变成一个独立观察维度，内容表达也该从“会什么”变成“做成什么”。`
+  - `真正值得写的，不是它多聪明，而是它替用户省掉了哪几步。`
+- 必须保留事实说明：`Newrank 搜索入口已优先检查；本轮优先关键词的公开 markdown 端点返回空模板，详情不足；按要求应使用 yhslgg-arch/url-reader 回退，但当前环境该 skill 不可用，未能执行。`
+- 如果引用趋势例子，只能引用本文件里的事实边界，不得补写任何未核实的榜单详情。
+
+## Source Note For Archive
+- 首选目标来源：`https://www.newrank.cn/search/trend/skill`
+- 本轮实际抓取：页面 HTML 可访问；优先关键词对应 markdown 端点可访问，但均返回空模板。
+- 尝试的 required fallback：`yhslgg-arch/url-reader`
+- fallback 结果：当前环境未提供该 skill，无法执行 extraction path。
+- 因此本次仅如实输出可确认范围，并明确未获取到的部分。
