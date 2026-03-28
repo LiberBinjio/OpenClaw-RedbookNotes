@@ -1,0 +1,186 @@
+2026-03-28/20260328-075334+OpenClaw内容开始从工具介绍转向SkillHub与工作流整包用户更想带走的是可直接复用的一套技能路径/
+
+@TOPIC
+
+## Archive Package
+- date: `2026-03-28`
+- timestamp: `20260328-075334`
+- archive_title: `OpenClaw内容开始从工具介绍转向SkillHub与工作流整包用户更想带走的是可直接复用的一套技能路径`
+- archive_package: `2026-03-28 / 20260328-075334+OpenClaw内容开始从工具介绍转向SkillHub与工作流整包用户更想带走的是可直接复用的一套技能路径 / material files`
+- publish_boundary: `仅用于预览、复审与手动发布，不自动公开发布`
+
+## Source Status
+- First source required by task: `https://www.newrank.cn/search/trend/skill`
+- Newrank status: 已按要求优先检查 `https://www.newrank.cn/search/trend/skill`。
+- Direct detail status: 本轮未成功拿到该入口的可核验深层详情正文；`WebFetch` 对该页返回 `API Error 400`，因此不能把 `search/trend/skill` 写成已完成抓取的趋势详情页证据。
+- Fallback status: 按任务要求，Newrank detail 不完整时应使用 `yhslgg-arch/url-reader`；但当前会话可用 skill 仅有 `simplify` 与 `claude-api`，未提供 `yhslgg-arch/url-reader`，因此本轮无法执行这个必需 fallback，不能伪造抓取结果。
+- Fetched source URL and extraction path used:
+  - 源页面 URL：`https://www.newrank.cn/search/trend/skill`
+  - extraction path 要求：`yhslgg-arch/url-reader`
+  - 本轮实际状态：fallback skill 不可用，因此无可声明的实际 extraction path；只可如实记录“已优先检查 Newrank 入口，但未成功取得可核验详情”
+- Evidence boundary: 本轮可用证据主要来自 Newrank 主站与子域的公开文章标题、摘要级线索以及可见发布时间，不得编造榜单热度值、搜索词排名、详情页字段或代表爆文数据。
+
+## Main Topic
+### OpenClaw内容开始从工具介绍转向SkillHub与工作流整包：用户更想带走的是可直接复用的一套技能路径
+
+## Alternate Topics
+1. OpenClaw为什么越来越适合写“技能包”而不是单条工具测评？
+2. 从SkillHub到5个技能串成完整流程，AI内容更容易被收藏的原因变了
+3. 还在讲AI多聪明的人，为什么开始输给会写工作流整包的人？
+4. OpenClaw选题下一步别只讲模型能力，要讲技能怎么接成一条可交付路径
+5. 当用户开始找SkillHub和工作流，AI内容就不该只停在“这个工具很好用”
+
+## Target Audience
+- 做小红书 AI、OpenClaw、Agent、工作流方向内容的创作者
+- 想把 AI 从“偶尔灵一次”变成“稳定复用”的运营、产品、开发者
+- 负责选题、写稿、审稿、归档链路的内容团队
+- 需要把趋势线索直接交给 Draft 改写成正文的人
+
+## Trend Clue
+- 本轮一手入口仍然是 `https://www.newrank.cn/search/trend/skill`，并已按要求优先检查。
+- 但当前能安全确认的趋势依据，不是该入口的完整详情页，而是 Newrank 生态里几条方向一致的公开线索：
+  1. `百度电商Skill登陆OpenClaw，五大能力全开放`（2026-02-13，voice.newrank.cn）可直接支撑 `openclaw skill` 与“能力插件化/技能化”表达。
+  2. `腾讯再推“养虾”新措施，上线“中国专供”SkillHub`（2026-03-11，newrank.cn）说明 `SkillHub` 这类中文技能社区/技能分发场景已经进入 OpenClaw 内容语境。
+  3. `装上了，然后呢？我们盘点了“养龙虾”的11种经典玩法`（2026-03-13，newrank.cn）明确提到“完整 workflow 被打包成 5 个 OpenClaw skills”，可直接支撑 `workflow skill` 方向。
+  4. `Kimi推出OpenClaw云托管服务，跻身总榜前十`（2026-03-06，voice.newrank.cn）可支撑 OpenClaw 已从极客安装讨论，延伸到“零代码、一键部署、托管化”的大众传播表达。
+  5. `Minimax推出MaxClaw`（2026-02-26，voice.newrank.cn）摘要明确出现 `Skill / SubAgent / MCP / SOP / 工具编排`，说明用户关注点正在从“单轮回答”迁移到“能力调度与流程执行”。
+- 因此，本轮最稳的主判断不是去写某个无法核验的 `skill` 搜索热度，而是写：`OpenClaw相关内容正在从“介绍工具/模型”转向“展示技能市场、技能组合、工作流整包”，因为用户更想拿走可以直接复用的一套路径。`
+- 这个判断适合小红书，因为它天然带有“能不能立刻照着做”的收藏价值，也更容易让 Draft 写出对比、拆解和行动建议。
+
+## Viral References
+> 只拆高传播方法，不复写原句；只借结构，不照搬表达。
+
+### Reference Pattern A｜认知反转型
+- 常见爆点：很多人还在写某个 AI 工具多强，真正更容易被收藏的已经是“这套技能怎么接成流程”。
+- 可借用模式：先否定旧共识，再抛出新的内容分水岭。
+- 本轮映射：把焦点从“OpenClaw 好不好用”切到“OpenClaw 的 skills 能不能拼成一条完整交付链路”。
+
+### Reference Pattern B｜整包交付型
+- 常见爆点：用户真正想带走的不是一个零散功能，而是“装完以后我能直接干什么”。
+- 可借用模式：从“功能介绍”改写成“场景结果、动作顺序、可复用路径”。
+- 本轮映射：适合写 SkillHub、5 skills workflow、托管部署这类“装上就能跑”的场景。
+
+### Reference Pattern C｜前后对比型
+- 常见爆点：以前到处找工具、脚本、教程；现在直接拿一组现成 skills 或 workflow 开始跑。
+- 可借用模式：用“自己拼装很散”对比“技能组合后可直接复用”。
+- 本轮映射：适合创作者、开发者、内容团队三个角色共用。
+
+### Reference Pattern D｜团队资产型
+- 常见爆点：一个人会装 OpenClaw，不等于团队已经拥有稳定的 AI 生产力。
+- 可借用模式：用“个人会用工具”对比“团队有可交接的技能路径”。
+- 本轮映射：强调 skill/workflow 更容易沉淀成团队资产，而不是一次性灵感。
+
+## Rewrite Angle
+- 不把主题写成“OpenClaw 又有新动作”，而写成“为什么 OpenClaw 内容重心开始从工具介绍转向技能整包和工作流展示”。
+- 不把重点放在模型参数，而放在 `SkillHub -> skills 组合 -> workflow -> 交付` 这条升级路径。
+- 用 `百度电商Skill` 承接“能力插件化”，用 `SkillHub` 承接“技能分发/中文社区”，用“5 个 OpenClaw skills 打包 workflow”承接“完整执行链路”，再用 `Kimi 托管` 与 `MaxClaw` 承接“降低门槛与流程编排”。
+- 内容视角偏向创作者、内容团队、开发协作都能代入的高频场景，而不是新闻复述。
+
+## Hook Breakdown
+1. **认知反差钩子**
+   - 句式方向：`很多人还在写 OpenClaw 这个工具强不强，但真正开始拉开差距的，已经是谁能把 skills 接成一条完整 workflow。`
+   - 作用：先制造旧认知失效的反差。
+2. **痛点代入钩子**
+   - 句式方向：`装上 AI 工具不难，难的是装上以后，资料怎么找、任务怎么拆、结果怎么复用。`
+   - 作用：把“会装工具”和“会跑流程”的差异说出来。
+3. **结果承诺钩子**
+   - 句式方向：`真正更值钱的，不是又多了一个新工具，而是你能不能拿到一套今天就能跑起来的 skills 路径。`
+   - 作用：快速给出新结论。
+4. **团队升级钩子**
+   - 句式方向：`一个人会玩 OpenClaw 只是技巧，一支团队能共用同一套 skills/workflow 才叫生产力。`
+   - 作用：把话题从个人灵感拉到团队资产。
+5. **低门槛动作钩子**
+   - 句式方向：`先别急着测下一个模型，先看看你最高频的 3 个动作能不能封装成 skills。`
+   - 作用：让读者觉得今天就能执行。
+
+## Viral Copy Breakdown
+### 1. Hook Pattern
+- 高传播内容常用结构：`你以为重点还是 A，其实真正拉开差距的已经是 B`。
+- 本轮保留：`工具介绍/模型能力` 对比 `skill 组合/workflow 交付` 的认知反差。
+- 本轮改写：把旧关注点写成“这个工具强不强、这个模型厉不厉害”，把新关注点写成“能不能拿走一套可直接复用的技能路径”。
+- 本轮禁抄：任何现成爆文的反转标题原句。
+
+### 2. Structure Pattern
+- 推荐结构：
+  1) 先指出旧写法正在失效
+  2) 再点出新的内容分水岭
+  3) 用 2-3 组公开线索举例
+  4) 最后给一个可以立刻执行的微动作
+- Draft 可直接套成：反差开头 → 场景痛点 → SkillHub/workflow 线索 → 为什么更容易被收藏 → 可执行建议。
+- 本轮禁抄：资讯原文段落顺序、导语句、总结金句。
+
+### 3. Conflict Point
+- 表层冲突：普通用户还在看单个工具测评。
+- 深层冲突：更高阶的创作者和团队已经开始关注技能市场、技能组合与流程复用。
+- 这个冲突值得保留，因为天然适合评论区讨论与身份代入。
+
+### 4. Promise
+- 给读者的承诺不该是“立刻爆”，而应是：知道下一阶段更该写什么内容、更该沉淀什么能力。
+- 更可信的承诺是：少走弯路、减少返工、让流程可复用、让团队可协作、让结果能交付。
+
+### 5. Proof
+- 本轮 proof 只能用可核验边界，不得编造榜单：
+  - `https://www.newrank.cn/search/trend/skill` 已按要求作为首选入口优先检查。
+  - 本轮未成功取得可核验深层详情。
+  - 任务要求中的 fallback `yhslgg-arch/url-reader` 当前环境不可用，因此不能声称已补抓详情。
+  - 可见公开线索包括：`百度电商Skill登陆OpenClaw，五大能力全开放`、`腾讯再推“养虾”新措施，上线“中国专供”SkillHub`、`装上了，然后呢？我们盘点了“养龙虾”的11种经典玩法`、`Kimi推出OpenClaw云托管服务，跻身总榜前十`、`Minimax推出MaxClaw`。
+- 正文证明建议采用“场景前后对比”“技能组合示例”“工作流清单示例”，而非具体热度数字。
+
+### 6. CTA
+- 适合的 CTA：
+  - `如果你现在要给 OpenClaw 封装一个最值得收藏的 skill，会先做哪一步？`
+  - `你更想看的是单工具测评，还是一套能直接跑起来的 workflow？`
+- 以互动和收藏为主，不做强导流。
+
+### 7. What to Keep
+- 保留“旧方式落后 / 新方式更高效”的冲突框架。
+- 保留“场景化举例 + 结果对比 + 一步建议”的节奏。
+- 保留 `SkillHub -> skills 组合 -> workflow -> 交付` 的升级路径表达。
+
+### 8. What to Change
+- 把泛泛工具盘点改成真实场景：搜资料、任务拆解、内容生成、审校复用、团队协作。
+- 把“别人都在用”改成“为什么这套方式更容易复用、协作、交付”。
+- 把单工具夸张表达改为能力结构升级表达。
+
+### 9. What Must Not Be Copied
+- 不直接复用爆款标题整句。
+- 不照搬他人案例、流程命名、口头禅。
+- 不编造新榜榜单数字、搜索热度、代表爆文截图。
+- 不把公开文章线索包装成 `search/trend/skill` 的真实深层详情结论。
+
+## Rewrite Direction
+### 方向一｜认知升级型
+- 核心写法：把“会不会用 OpenClaw”重写成“会不会用 skills 搭出可复用 workflow”。
+- 适合对象：泛 AI 兴趣用户、刚开始接触 OpenClaw 的创作者。
+
+### 方向二｜创作者代入型
+- 核心写法：围绕小红书创作链路写，强调选题、搜集线索、写稿、审稿都可以拆成 skill。
+- 适合对象：想做 AI 博主、想提升更新效率的人。
+
+### 方向三｜团队交付型
+- 核心写法：用“个人会装工具”对比“团队能共用一套 skills/workflow”，突出差别不在模型，而在组织方式。
+- 适合对象：内容团队、产品经理、开发协作角色。
+
+### 方向四｜证据边界型
+- 核心写法：明确说明 Newrank `skill` 入口已优先检查，但细分详情当前不完整；正文应以可见公开文章线索与方法论证明为主。
+- 适合对象：需要稳妥引用趋势线索、又不能冒进编数据的内容团队。
+
+## Draft Handoff Notes
+- 标题方向要口语化，有明确判断，不要写成新闻播报。
+- 开头 2 句内必须出现冲突：多数人还在写工具/模型本身，少数人已经开始写 skills 如何组成 workflow。
+- 正文至少写出 3 个高频场景：搜资料、任务拆解、写稿审稿，或安装配置、技能调用、结果复用。
+- 必须强调“改写爆款结构，不复制句子”。
+- 如需引用趋势依据，只能写：`新榜已存在 skill 趋势入口，但本轮未成功取得 search/trend/skill 深层详情；公开可见线索主要来自 Newrank 生态公开文章与子域内容。`
+- 必须保留来源与 extraction path 说明：
+  - 源页面 URL：`https://www.newrank.cn/search/trend/skill`
+  - extraction path 要求：`yhslgg-arch/url-reader`
+  - 本轮实际状态：该 skill 当前不可用，因此无法声明已执行 extraction path
+- 结尾 CTA 走评论区互动：你最想先封装哪个 OpenClaw skill？
+- 必须写清：本轮内容仅用于预览、复审与手动发布，不自动公开发布。
+
+## Sources
+- [百度电商Skill登陆OpenClaw，五大能力全开放](https://voice.newrank.cn/study/detail/35CE5681E18CD946)
+- [Kimi推出OpenClaw云托管服务，跻身总榜前十；字节Seedance 2.0助力即梦排名上升](https://voice.newrank.cn/study/detail/0D95D1B271172D54)
+- [Minimax推出MaxClaw](https://voice.newrank.cn/study/detail/67DCBB1F53F5FC6D)
+- [装上了，然后呢？我们盘点了“养龙虾”的11种经典玩法](https://www.newrank.cn/article/detail/34041)
+- [腾讯再推“养虾”新措施，上线“中国专供”SkillHub](https://www.newrank.cn/article/detail/34022)
