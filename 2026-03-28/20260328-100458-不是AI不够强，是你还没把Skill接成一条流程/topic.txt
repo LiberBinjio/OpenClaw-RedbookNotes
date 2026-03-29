@@ -1,0 +1,207 @@
+# @TOPIC
+
+## Archive Package
+- date: `2026-03-28`
+- timestamp: `20260328-100458`
+- archive_title: `AI技能别再只换模型，先把工作流接起来`
+- archive_package: `2026-03-28 / 20260328-100458+AI技能别再只换模型，先把工作流接起来 / material files`
+- publish_boundary: `仅用于预览、复审与手动发布，不自动公开发布`
+
+## Source Status
+- First source required by task: `https://www.newrank.cn/search/trend/skill`
+- Newrank first-check status: 已按要求优先检查该入口，但本轮仍未取得可核验的 `search/trend/skill` 深层详情。
+- Visible status this round:
+  1. `WebFetch` 对该入口返回 `API Error 400`，未形成可用详情抽取结果。
+  2. 直接请求该 URL 仅拿到 Newrank 通用首页壳内容，未拿到可安全写成事实的 `skill` 趋势详情字段。
+- Fallback requirement: 按任务要求，若 Newrank 详情不可用，应先使用 `yhslgg-arch/url-reader`。
+- Fallback actual status: 当前会话可用 skill 仅有 `simplify` 与 `claude-api`，未提供 `yhslgg-arch/url-reader`，因此本轮不能执行该 fallback，也不能伪造抓取结果。
+- Fetched source URL and extraction path used:
+  - source URL: `https://www.newrank.cn/search/trend/skill`
+  - extraction path required by task: `yhslgg-arch/url-reader`
+  - actual extraction path this round: 未执行；原因是当前环境未提供该 skill
+- Keyword coverage:
+  - `openclaw`：有稳定 Newrank 邻近线索。
+  - `openclaw skill`：有 `OpenClaw + Skill` 邻近文章线索，但仍非 `search/trend/skill` 直连详情。
+  - `AI skill`：没有 `search/trend/skill` 直连详情，但有 AI 产品榜、AI 原生工作台等邻近信号。
+  - `workflow skill`：没有 `search/trend/skill` 直连详情，但有节点式工作流、完整链路执行等邻近信号。
+  - `copilot skill`：证据最弱，仅有导航页与 Think Deeper 邻近线索，不能写成已抓到直连趋势详情。
+- Evidence boundary: 本轮趋势依据只能使用 Newrank 主站与前序 Boss 留痕中可见的标题/摘要级线索；不得编造榜单热度、搜索排名、互动量或不可见正文细节。
+
+## Main Topic
+### AI技能别再只换模型，先把工作流接起来
+
+## Alternate Topics
+1. 不是 AI 不够强，是你的 Skill 还没接进 workflow
+2. 同样在用 AI，为什么有人已经稳定交付，有人还停在聊天框？
+3. OpenClaw 内容越看越多后，我更确定真正该补的不是模型，而是流程
+4. 别再只收藏新模型了，先把一个高频任务接成可复用工作流
+5. AI 工具越换越多，真正拉开差距的为什么还是那条能跑通的路径？
+
+## Target Audience
+- 做小红书 AI、OpenClaw、Agent、Copilot、工作流方向内容的创作者
+- 想把 AI 从“会回答”升级成“能稳定交付”的产品、运营、开发者
+- 需要把趋势信号快速交给 Draft 扩写成中文正文的内容团队
+- 关注技能化调用、流程编排、审稿复核、归档复用的人
+
+## Trend Clue
+- 本轮首要来源仍是 `https://www.newrank.cn/search/trend/skill`，但当前只能确认“入口已优先检查、详情受限”，不能写成具体热度值、榜单排名或详情页字段事实。
+- 当前可复用的 Newrank 邻近线索，集中指向一个更稳妥的趋势判断：`AI 内容的差距，正在从“换更强模型”迁移到“能不能把 Skill 接进 workflow，并稳定交付结果”。`
+- 可安全沿用的线索包括：
+  1. `百度电商Skill登陆OpenClaw，五大能力全开放`：说明 `Skill + OpenClaw` 已进入更具体的落地场景，不只是概念讨论。
+  2. `Kimi推出OpenClaw云托管服务，跻身总榜前十；字节Seedance 2.0助力即梦排名上升 | AI产品月榜`：说明 OpenClaw 的关注点已延伸到托管化、平台化、可直接调用。
+  3. `百度智能云推出移动端OpenClaw部署方案`、`百度App接入OpenClaw 2周，超2成用户调用于投资理财分析`：说明 OpenClaw 正从技术讨论走向更明确的真实任务承接。
+  4. `Krea AI推出节点式工作流工具Nodes，总榜排名上升34位；通义千问总榜排名攀升68位 | AI产品周榜`：说明 workflow / 节点式组织仍是稳定传播抓手。
+  5. `微软宣布加强Copilot Think Deeper深度思考功能`、`OpenAI推出面向科学家的免费AI原生工作台Prism`：虽然不是 `search/trend/skill` 直连详情，但可作为“用户开始重视完整路径与更深推理能力”的邻近信号。
+- 关键词状态必须如实写明：
+  - `openclaw`：有稳定 Newrank 邻近线索。
+  - `openclaw skill`：有 `OpenClaw + Skill` 邻近文章线索，但仍非 `search/trend/skill` 直连详情。
+  - `AI skill`：有 AI 产品榜、AI 原生工作台等邻近线索。
+  - `workflow skill`：有节点式 workflow、完整执行链路等邻近线索。
+  - `copilot skill`：仅有导航页与 Think Deeper 邻近线索，证据最弱。
+- 综合这些线索，更值得写的不是“哪个工具又升级了”，而是“为什么 AI 的分水岭正在从模型能力迁移到流程组织能力”。
+
+## Viral References
+> 只拆高传播结构，不复制原句；只借方法，不照搬表达。
+
+### Reference A｜Skill 落地型
+- 参考线索：`百度电商Skill登陆OpenClaw，五大能力全开放`
+- 可借用爆点：Skill 不再抽象，开始绑定真实任务。
+- 本轮借法：把“能力开放”改写成“为什么用户下一步更关心怎么接进流程”。
+
+### Reference B｜平台化升级型
+- 参考线索：`Kimi推出OpenClaw云托管服务...`、`百度智能云推出移动端OpenClaw部署方案`
+- 可借用爆点：工具从“能用”升级到“可托管/可部署/可平台化”，内容表达也该从功能介绍升级为交付路径介绍。
+- 本轮借法：不讲平台名本身，而讲“为什么平台化之后更需要稳定 workflow”。
+
+### Reference C｜节点工作流型
+- 参考线索：`Krea AI推出节点式工作流工具Nodes...`
+- 可借用爆点：节点式组织方式比单点功能更像“今天就能拿去跑”的路径。
+- 本轮借法：把工作流写成具体结果路径，而不是工具堆叠。
+
+### Reference D｜深度推理 / 工作台型
+- 参考线索：`Copilot Think Deeper`、`Prism`
+- 可借用爆点：用户不只要快回答，还要更完整的推理路径与任务承接能力。
+- 本轮借法：把“更强模型”改写成“更完整工作流”。
+
+## Rewrite Angle
+- 不把主题写成“哪个 AI 模型又更新了”，而写成“为什么只换模型已经不够，真正该补的是工作流”。
+- 不把重点放在参数、榜单或品牌名，而放在 `输入模板 -> 角色协作 -> 输出复核 -> 归档复用` 这条稳定链路。
+- 不做资讯堆砌，而是把 OpenClaw、Skill、workflow、Copilot 线索收束成一个用户视角问题：`你今天能不能让 AI 真正替你把一件事做完？`
+- 整体表达要偏“踩坑后复盘”，而不是新闻播报或产品测评。
+
+## Hook Breakdown
+1. **认知反差钩子**
+   - 句式方向：`很多人还在研究换哪个模型，但真正开始拉开差距的，已经是有没有把工作流接起来。`
+   - 作用：先制造旧认知失效的反差。
+2. **痛点代入钩子**
+   - 句式方向：`AI 工具你可能已经装了不少，可一到交付结果时，还是要靠自己手动补流程。`
+   - 作用：把“会用工具”和“会稳定交付”之间的断层说出来。
+3. **趋势证据钩子**
+   - 句式方向：`当 OpenClaw Skill、云托管、节点 workflow、Think Deeper、原生工作台一起出现时，变的就不只是模型，而是使用方式。`
+   - 作用：把零散标题拼成趋势判断。
+4. **结果承诺钩子**
+   - 句式方向：`真正值钱的不是再知道一个新名字，而是拿到一条今天就能跑起来的固定流程。`
+   - 作用：快速给出收藏价值。
+5. **团队升级钩子**
+   - 句式方向：`一个人会换模型只是开始，一支团队能共用同一套流程才叫生产力。`
+   - 作用：把话题从个人尝鲜拉到团队资产。
+
+## Viral Copy Breakdown
+### 1. Hook Pattern
+- 高传播内容常用结构：`你以为重点还在模型/工具名，其实真正拉开差距的已经是流程/交付结果。`
+- 本轮保留：`换模型` 对比 `接工作流` 的认知反差。
+- 本轮改写：把旧关注点写成“参数、速度、谁更强”，把新关注点写成“它放在哪个流程节点、能不能少走几步、能不能稳定复用”。
+- 本轮禁抄：任何现成爆文的反转标题原句。
+
+### 2. Structure Pattern
+- 推荐结构：
+  1) 先指出很多内容还停在换模型或讲功能
+  2) 再点出新的分水岭是“有没有接进 workflow”
+  3) 用 3-5 条 Newrank 邻近线索并列证明
+  4) 最后给一个今天就能执行的改写动作
+- Draft 可直接套成：反差开头 → 场景痛点 → 趋势拼图 → 为什么流程型内容更容易被收藏 → 最小行动建议。
+- 本轮禁抄：资讯原文段落顺序、导语句、总结金句。
+
+### 3. Conflict Point
+- 表层冲突：很多内容还在教“哪个模型更强、哪个工具更快”。
+- 深层冲突：真正更高阶的创作者和团队已经在讨论“怎么把 Skill 接进 workflow，并稳定交付结果”。
+- 这个冲突值得保留，因为天然适合评论区讨论与身份代入。
+
+### 4. Promise
+- 给读者的承诺不该是“立刻爆”，而应是：知道下一阶段更该写什么内容、更该固定什么流程。
+- 更可信的承诺是：少返工、少重复解释、让 AI 输出更稳定、让团队更好协作。
+
+### 5. Proof
+- 本轮 proof 只能使用可核验边界，不得编造榜单：
+  - `https://www.newrank.cn/search/trend/skill` 已按要求作为首选入口优先检查。
+  - 该入口本轮未成功取得可核验深层详情。
+  - 任务要求中的 fallback `yhslgg-arch/url-reader` 当前环境不可用，因此不能声称已补抓详情。
+  - 可见公开线索包括：`百度电商Skill登陆OpenClaw，五大能力全开放`、`Kimi推出OpenClaw云托管服务...`、`百度智能云推出移动端OpenClaw部署方案`、`百度App接入OpenClaw 2周，超2成用户调用于投资理财分析`、`Krea AI推出节点式工作流工具Nodes...`、`Prism`、`Copilot Think Deeper`。
+- 正文证明建议采用“输入混乱 / 过程不可复用 / 结果没人校验”这三类流程断点，而不是热度数字。
+
+### 6. CTA
+- 适合的 CTA：
+  - `如果你现在已经装了不少 AI 工具，你最想先把哪一步接进固定 workflow？`
+  - `你更想看一个新模型，还是一条今天就能跑起来的技能路径？`
+- 以互动和收藏为主，不做强导流。
+
+### 7. What to Keep
+- 保留“旧方式落后 / 新方式更高效”的冲突框架。
+- 保留“场景化举例 + 结果对比 + 一步建议”的节奏。
+- 保留 `输入模板 -> 角色协作 -> 输出复核 -> 归档复用` 的升级路径表达。
+
+### 8. What to Change
+- 把泛泛工具盘点改成真实场景：调研、起稿、改写、复核、归档。
+- 把“别人都在换更强模型”改成“为什么这套方式更容易复用、协作、交付”。
+- 把单工具夸张表达改成流程组织升级表达。
+
+### 9. What Must Not Be Copied
+- 不直接复用爆款标题整句。
+- 不照搬他人案例、流程命名、口头禅。
+- 不编造新榜榜单数字、搜索热度、截图细节。
+- 不把公开文章线索包装成 `search/trend/skill` 的真实深层详情结论。
+
+## Rewrite Direction
+### 方向一｜内容创作者版
+- 核心写法：不是 AI 不够强，而是你还没把它们接成一条内容产出链。
+- 适合对象：做选题、起稿、改稿、复盘的小红书创作者。
+
+### 方向二｜效率升级版
+- 核心写法：AI 的竞争门槛，已经从“会不会问”切到“会不会搭流程”。
+- 适合对象：产品、运营、自由职业者、知识工作者。
+
+### 方向三｜OpenClaw 生态版
+- 核心写法：OpenClaw / Skill 越多，越说明未来不是单助手，而是多节点协作。
+- 适合对象：关注 OpenClaw、Agent、Skill 生态的人。
+
+### 方向四｜证据边界版
+- 核心写法：明确说明 Newrank `skill` 入口已优先检查，但深层详情当前不可核验；正文应以 Newrank 生态公开线索与流程方法论证明为主。
+- 适合对象：需要稳妥引用趋势线索、又不能冒进编数据的内容团队。
+
+## Draft Handoff Notes
+- 标题方向优先围绕统一主题：`AI技能别再只换模型，先把工作流接起来`。
+- 开头 2 句内必须出现冲突：多数人还在讲模型、讲工具，少数人已经开始讲流程怎么稳定交付结果。
+- 正文中段建议拆 3 个流程断点：
+  1. 输入混乱：每次都从头喂需求
+  2. 过程不可复用：没有固定节点和分工
+  3. 结果没人校验：产出后缺少复核和归档
+- 轻量解法建议写成：`固定输入模板 + 角色拆分 + 输出复核`。
+- 必须强调“改写爆款结构，不复制句子”。
+- 如需引用趋势依据，只能写：`新榜已存在 skill 趋势入口，但本轮未成功取得 search/trend/skill 深层详情；公开可见线索主要来自 Newrank 生态公开文章与 Boss 留痕。`
+- 必须保留来源与 extraction path 说明：
+  - source URL: `https://www.newrank.cn/search/trend/skill`
+  - extraction path required by task: `yhslgg-arch/url-reader`
+  - actual status this round: 当前 skill 不可用，因此未执行 extraction path
+- 结尾 CTA 走评论区互动：你最想先固定下来的 AI workflow 是哪一步？
+- 必须写清：本轮内容仅用于预览、复审与手动发布，不自动公开发布。
+
+## Sources
+- [新榜 skill 趋势入口](https://www.newrank.cn/search/trend/skill)
+- [百度电商Skill登陆OpenClaw，五大能力全开放](https://www.newrank.cn/article/detail/33856)
+- [Kimi推出OpenClaw云托管服务，跻身总榜前十；字节Seedance 2.0助力即梦排名上升 | AI产品月榜](https://newrank.cn/article/detail/33981)
+- [百度智能云推出移动端OpenClaw部署方案](https://www.newrank.cn/article/detail/34053)
+- [百度App接入OpenClaw 2周，超2成用户调用于投资理财分析](https://www.newrank.cn/article/detail/34062)
+- [Krea AI推出节点式工作流工具Nodes，总榜排名上升34位；通义千问总榜排名攀升68位 | AI产品周榜](https://www.newrank.cn/article/detail/33895)
+- [GitHub Copilot - 新榜导航页](https://nav.newrank.cn/site/1167)
+- [OpenAI推出面向科学家的免费AI原生工作台Prism](https://matrix.newrank.cn/article/article-detail/153e31851d86429f)
+- [微软宣布加强Copilot Think Deeper深度思考功能](https://matrix.newrank.cn/article/article-detail/0ed7d80d95d949e4)
